@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 90px 10px;
+    display: block;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 640px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        width: 94%;
+    }
+}

@@ -1,0 +1,144 @@
+.container {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 90px 10px;
+}
+
+.container::after {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    content: ' ';
+    width: calc(100% - 10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.title,
+.subtitle {
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 46px;
+}
+
+.list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    width: inherit;
+    margin-bottom: 30px;
+}
+
+.photoWrapper {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.julia {
+    background-image: url('../../assets/img/julia.jpg');
+}
+
+.dima {
+    background-image: url('../../assets/img/dima.jpg');
+}
+
+.cristina {
+    background-image: url('../../assets/img/cristina.jpg');
+}
+
+.yana {
+    background-image: url('../../assets/img/yana.jpg');
+}
+.anton {
+    background-image: url('../../assets/img/anton.jpg');
+}
+.danil {
+    background-image: url('../../assets/img/danil.jpg');
+}
+
+.textWrapper {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 641px) {
+    .container {
+        width: 100%;
+        padding: 90px 30px;
+    }
+
+    .title {
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+
+    .subtitle {
+        font-size: 22px;
+        margin-bottom: 36px;
+    }
+
+    .list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        width: 43%;
+    }
+
+    .name {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 640px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        width: 94%;
+    }
+}

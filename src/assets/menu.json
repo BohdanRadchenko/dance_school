@@ -1,0 +1,42 @@
+[
+  {
+    "id" : 1,
+    "name": "bunner"
+  },
+  {
+    "id" : 2,
+    "name": "about"
+  },
+  {
+    "id" : 3,
+    "name": "dance"
+  },
+  {
+    "id" : 4,
+    "name": "teachers"
+  },
+  {
+    "id" : 5,
+    "name": "price"
+  },
+  {
+    "id" : 6,
+    "name": "contest"
+  },
+  {
+    "id" : 7,
+    "name": "faq"
+  },
+  {
+    "id" : 8,
+    "name": "feedback"
+  },
+  {
+    "id" : 9,
+    "name": "contact"
+  },
+  {
+    "id" : 10,
+    "name": "footer"
+  }
+]

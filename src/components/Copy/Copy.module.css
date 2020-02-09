@@ -1,0 +1,25 @@
+.element {
+    width: 100%;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-color: #000000;
+    color: #858585;
+}
+
+.container p {
+    text-align: center;
+    padding: 25px 0 ;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 640px;
+        margin: 0 auto;
+    }
+}

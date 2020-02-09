@@ -1,0 +1,81 @@
+/*@keyframes moveIn {*/
+/*    0% {top: -500px;}*/
+/*    20% {top: -400px;}*/
+/*    25% {top: -300px;}*/
+/*    75% {top: -200px;}*/
+/*    80% {top: -100px;}*/
+/*    100% {top: 0;}*/
+/*}*/
+
+/*@keyframes moveOut {*/
+/*    0% {top: -500px;}*/
+/*    20% {top: -400px;}*/
+/*    25% {top: -300px;}*/
+/*    75% {top: -200px;}*/
+/*    80% {top: -100px;}*/
+/*    100% {top: 0;}*/
+/*}*/
+
+@keyframes opaIn {
+    0% {opacity: 0}
+    20% {opacity: 0.2}
+    25% {opacity: 0.25}
+    75% {opacity: 0.75}
+    80% {opacity: 0.8}
+    100% {opacity: 1;}
+}
+
+.container {
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    margin-top: 60px;
+    display: block;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+    opacity: 1;
+    animation: opaIn 0.3s ease-in-out 1 alternate;
+}
+
+.containerNone {
+    composes: container;
+    animation: moveIn 0.3s ease-in-out 1 alternate;
+    height: 0;
+    display: none;
+    opacity: 0;
+}
+
+.burgerWrapper {
+    display: block;
+    transition: all 1s linear;
+}
+
+.menuList {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: #646464;
+}
+
+.menuLink {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 0;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menuLink:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
+.activeLink {
+    background-color: #000000;
+    color: #ffffff;
+}

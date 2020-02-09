@@ -1,0 +1,166 @@
+.element {
+    width: 100%;
+    background-color: #000000;
+}
+
+.container {
+    background-color: #000;
+    padding: 30px 0;
+    width: 100%;
+    display: block;
+}
+
+.list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+
+}
+
+.imageWrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100%;
+    position: relative;
+    background-color: #e8000f;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.salsa {
+    background-image: url('../../assets/img/salsa.jpg');
+}
+
+.flamenco {
+    background-image: url('../../assets/img/flamenco.jpg');
+}
+
+.tango {
+    background-image: url('../../assets/img/tango.jpg');
+}
+
+
+.textWrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100%;
+    position: relative;
+    background-color: #e8000f;
+    text-align: center;
+}
+
+.textContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 50px 20px;
+}
+
+.title,
+.desc {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.rec {
+    padding: 90px 30px;
+}
+
+.textSubtitle {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000000;
+    font-size: 18px;
+    padding: 16px;
+}
+
+@media screen and (min-width: 620px) {
+    .container {
+        width: 100%;
+    }
+
+    .list {
+
+    }
+
+    .item {
+        display: flex;
+        width: 100%;
+    }
+
+    .item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .imageWrapper {
+        width: 50%;
+        padding-top: 50%;
+    }
+
+    .textWrapper {
+        padding-top: 50%;
+        width: 50%;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .textSubtitle {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .button {
+        font-size: 22px;
+        padding: 18px 10px;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 0;
+        margin: 0 auto;
+        width: 94%
+    }
+}
