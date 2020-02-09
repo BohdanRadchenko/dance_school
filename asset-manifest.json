@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dance_school/static/css/main.4ad17416.chunk.css",
+    "main.js": "/dance_school/static/js/main.8679bdb8.chunk.js",
+    "main.js.map": "/dance_school/static/js/main.8679bdb8.chunk.js.map",
+    "runtime-main.js": "/dance_school/static/js/runtime-main.53c90acc.js",
+    "runtime-main.js.map": "/dance_school/static/js/runtime-main.53c90acc.js.map",
+    "static/js/2.da8034f2.chunk.js": "/dance_school/static/js/2.da8034f2.chunk.js",
+    "static/js/2.da8034f2.chunk.js.map": "/dance_school/static/js/2.da8034f2.chunk.js.map",
+    "index.html": "/dance_school/index.html",
+    "precache-manifest.90f0cfef3f38fe47926ba666f54edbf5.js": "/dance_school/precache-manifest.90f0cfef3f38fe47926ba666f54edbf5.js",
+    "service-worker.js": "/dance_school/service-worker.js",
+    "static/css/main.4ad17416.chunk.css.map": "/dance_school/static/css/main.4ad17416.chunk.css.map",
+    "static/js/2.da8034f2.chunk.js.LICENSE.txt": "/dance_school/static/js/2.da8034f2.chunk.js.LICENSE.txt",
+    "static/media/Bunner.module.css": "/dance_school/static/media/bunner_img.13c08ac8.jpg",
+    "static/media/DanceList.module.css": "/dance_school/static/media/salsa.3152c2f6.jpg",
+    "static/media/Teachers.module.css": "/dance_school/static/media/julia.b630e395.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53c90acc.js",
+    "static/js/2.da8034f2.chunk.js",
+    "static/css/main.4ad17416.chunk.css",
+    "static/js/main.8679bdb8.chunk.js"
+  ]
+}
